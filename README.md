@@ -4,6 +4,15 @@ A computational tool for multilabel mRNA subcellular localization prediction
 MRSLpred is a tool for multilabel mRNA subcellular localization prediction using a XGBoost classifier. It uses only composition based features for predicting the subcellular locations. The final model also deploys a motif-based module which has been implemented using MERCI.
 MRSLpred is also available as web-server at https://webs.iiitd.edu.in/raghava/mrslpred. Please read/cite the content about MRSLpred for complete information including algorithm behind the approach.
 
+## PIP Installation
+PIP version is also available for easy installation and usage of this tool. The following command is required to install the package 
+```
+pip install mrslpred
+```
+To know about the available option for the pip package, type the following command:
+```
+mrslpred -h
+```
 ## Standalone
 The Standalone version of mrslpred is written in python3 and following libraries are necessary for the successful run:
 - scikit-learn
