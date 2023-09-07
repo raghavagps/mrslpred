@@ -84,6 +84,10 @@ xgboost_final.pkl               : This file contains the pickled version of mode
 
 mrslpred_motif.py               : Main python program
 
+val_data.fasta                  : Fasta file containing all the sequences used for validation
+
+val_data_labels.csv             : CSV file containing the labels for the sequences in the validation dataset
+
 example_input.fa                : Example file contain nucleotide sequences in FASTA format
 
 example_predict_prob_output.csv : Example output file containing probabilities for each location
