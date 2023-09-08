@@ -34,12 +34,12 @@ th5 = args.th5
 th6 = args.th6 
 output_loc = args.output
 
-exec_string = "python3 " + nf_path + "/Standalone_Nfeature/DNA_Standalone/Nfeature_DNA.py -i " + fasta_loc + " -ft CDK -k 3 -o " + output_loc + "/CDK3.csv"
+exec_string = "python3 " + nf_path + "/Nfeature_DNA.py -i " + fasta_loc + " -ft CDK -k 3 -o " + output_loc + "/CDK3.csv"
 os.system(exec_string)
 
 print(exec_string)
 
-exec_string = "python3 " + nf_path + "/Standalone_Nfeature/DNA_Standalone/Nfeature_DNA.py -i " + fasta_loc + " -ft RDK -k 4 -o " + output_loc + "/RDK4.csv"
+exec_string = "python3 " + nf_path + "/Nfeature_DNA.py -i " + fasta_loc + " -ft RDK -k 4 -o " + output_loc + "/RDK4.csv"
 os.system(exec_string)	
 
 
