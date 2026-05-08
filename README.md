@@ -7,6 +7,9 @@ MRSLpred is also available as web-server at https://webs.iiitd.edu.in/raghava/mr
 ## Dataset
 Available in dataset.zip
 
+## Zenodo
+https://doi.org/10.5281/zenodo.19941115
+
 ## PIP Installation
 PIP version is also available for easy installation and usage of this tool. The following command is required to install the package 
 ```
